@@ -1,0 +1,14 @@
+customizations-config:
+  customizations:
+    cloudFormationStackSets:
+      - name: S3Bucket
+        description: s3bucket
+        regions:
+          - us-east-1
+        deploymentTargets:
+          accounts:
+            - Shared-Services
+        template: ./cfn-templates/notifications_chatbot.yaml
+        parameters:
+          - name: BucketName
+            value: foo
