@@ -1,5 +1,6 @@
 
 customizations:
+  # This is a comment for the below component
   cloudFormationStackSets:
     - name: S3Bucket
       description: s3bucket
