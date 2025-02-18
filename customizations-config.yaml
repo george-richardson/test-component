@@ -12,4 +12,4 @@ customizations:
       template: COMPONENT_PATH_PLACEHOLDER/bucket.yaml
       parameters:
         - name: BucketName
-          value: foo
+          value: this-is-a-unique-bucket-name-foo-sf
