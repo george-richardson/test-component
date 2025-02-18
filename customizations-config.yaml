@@ -8,7 +8,7 @@ customizations:
       deploymentTargets:
         accounts:
           - Shared-Services
-      template: ./cfn-templates/notifications_chatbot.yaml
+      template: COMPONENT_PATH_PLACEHOLDER/bucket.yaml
       parameters:
         - name: BucketName
           value: foo
